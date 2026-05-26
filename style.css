@@ -1,0 +1,81 @@
+body{
+	margin:0 ;
+	padding: 0;
+}
+.menu , ul , li{
+	display: flex;
+	list-style: none;
+	color: #30364F;
+	cursor: pointer;
+	margin-top: 10 px;
+}
+li{
+	margin-right: 20px;
+}
+.navbar{
+	display: flex;
+	justify-content: space-between;
+	height: 100px;
+	padding-left: 50px;
+	padding-right: 50px;
+	font-weight: 5;
+	background-color: #B7BDF7;
+	font-size: 5;
+}
+.logo , img{
+	margin-top: 20px;
+}
+.submit{
+	background-color: #C3110C;
+	color: white;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-weight: bold;
+	border: none;
+	width: auto;
+	height: 40px;
+	padding-left: 20px;
+	padding-right: 20px;
+	border-radius: 8px;
+}
+.hero{
+	display: flex;
+	justify-content: space-between;
+}
+.details{
+	margin-left: 50px;
+}
+.heading-text{
+	font-size: 75px;
+	color: #134E8E;
+}
+.get{
+	background-color: #C3110C;
+	color: white;
+	margin-bottom: 20px;
+	font-weight: bold;
+	border: none;
+	width: auto;
+	height: 50px;
+	padding-left: 25px;
+	padding-right: 25px;
+	border-radius: 8px;
+}
+.image{
+	width: 80vw;
+	border-radius: 20px;
+	margin-right: 50px;
+	height: auto;
+	background-size: cover;
+	background-image: url(https://img.freepik.com/free-photo/smiling-happy-indian-student-with-backpack-pointing-his-finger-wall_496169-1532.jpg?semt=ais_hybrid&w=740&q=80);
+	box-shadow: 1px 0 5 px rgba(0, 0, 0, 1.0);
+	margin-top: 100px;
+	background-position: center;
+}
+.middle{
+	height: 500px;
+}
+.footer{
+	display: flex;
+	justify-content: center;
+}
